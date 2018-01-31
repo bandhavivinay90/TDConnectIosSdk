@@ -1,0 +1,2 @@
+github "aerogear/aerogear-ios-http" == 2.0.0
+github "kylef/JSONWebToken.swift" == 2.2.0
