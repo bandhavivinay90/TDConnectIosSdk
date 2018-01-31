@@ -45,6 +45,8 @@
 		C137489A202216CC00D268E5 /* JWT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1374898202216CB00D268E5 /* JWT.framework */; };
 		C137489C2022175300D268E5 /* AeroGearHttp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C1374897202216CB00D268E5 /* AeroGearHttp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C137489D2022175400D268E5 /* JWT.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C1374898202216CB00D268E5 /* JWT.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C13748A120221FC500D268E5 /* AeroGearHttp.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = C1374897202216CB00D268E5 /* AeroGearHttp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C13748A220221FC500D268E5 /* JWT.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = C1374898202216CB00D268E5 /* JWT.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,18 @@
 				C137489D2022175400D268E5 /* JWT.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C13748A020221FB400D268E5 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C13748A120221FC500D268E5 /* AeroGearHttp.framework in Copy Frameworks */,
+				C13748A220221FC500D268E5 /* JWT.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -272,6 +286,7 @@
 				4833045F19AF1635002F8DA9 /* Headers */,
 				4833046019AF1635002F8DA9 /* Resources */,
 				C137489B2022172500D268E5 /* Embed Frameworks */,
+				C13748A020221FB400D268E5 /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
