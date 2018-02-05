@@ -43,10 +43,6 @@
 		C1374896202212EC00D268E5 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = C1374895202212EC00D268E5 /* Cartfile */; };
 		C1374899202216CC00D268E5 /* AeroGearHttp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1374897202216CB00D268E5 /* AeroGearHttp.framework */; };
 		C137489A202216CC00D268E5 /* JWT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1374898202216CB00D268E5 /* JWT.framework */; };
-		C137489C2022175300D268E5 /* AeroGearHttp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C1374897202216CB00D268E5 /* AeroGearHttp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C137489D2022175400D268E5 /* JWT.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C1374898202216CB00D268E5 /* JWT.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C13748A120221FC500D268E5 /* AeroGearHttp.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = C1374897202216CB00D268E5 /* AeroGearHttp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C13748A220221FC500D268E5 /* JWT.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = C1374898202216CB00D268E5 /* JWT.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,30 +63,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				6F1432B81A168594003BEE5B /* TDConnectIosSdk.framework in Copy Frameworks */,
-			);
-			name = "Copy Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C137489B2022172500D268E5 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				C137489C2022175300D268E5 /* AeroGearHttp.framework in Embed Frameworks */,
-				C137489D2022175400D268E5 /* JWT.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C13748A020221FB400D268E5 /* Copy Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				C13748A120221FC500D268E5 /* AeroGearHttp.framework in Copy Frameworks */,
-				C13748A220221FC500D268E5 /* JWT.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,8 +257,7 @@
 				4833045E19AF1635002F8DA9 /* Frameworks */,
 				4833045F19AF1635002F8DA9 /* Headers */,
 				4833046019AF1635002F8DA9 /* Resources */,
-				C137489B2022172500D268E5 /* Embed Frameworks */,
-				C13748A020221FB400D268E5 /* Copy Frameworks */,
+				C14ACDEC202866ED006607B0 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -372,6 +343,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C14ACDEC202866ED006607B0 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/AeroGearHttp.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/JWT.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4833045D19AF1635002F8DA9 /* Sources */ = {
