@@ -104,7 +104,8 @@ open class OAuth2Module: NSObject, AuthzModule, SFSafariViewControllerDelegate {
     var browserType: BrowserType
     var authenticationSession: Any? // We need this optional on the object otherwise the popup dialog disappears immediately. It has to be an Any instead of a SFAuthenticationSession because SFAuthenticationSession is only available in iOS 11+ and we do not want to mark the whole class with `@available(iOS 11.0, *)` and we can't use that syntax on stored properties.
 
-    var url: URL = URL(string:"")! // Holds the final URL
+    //Added for accessing the request URL ....
+    open var url: URL = URL(string:"")! // Holds the final URL
     /**
     Initialize an OAuth2 module.
 
