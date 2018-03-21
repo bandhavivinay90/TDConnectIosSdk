@@ -321,7 +321,9 @@ public class TrustedPersistentOAuth2Session: OAuth2Session {
     public func save(accessToken: String?, refreshToken: String?, accessTokenExpiration: String?, refreshTokenExpiration: String?, idToken: String?) {
         self.accessToken = accessToken
         self.refreshToken = refreshToken
-        self.idToken = idToken
+        if let idToken = idToken {
+            self.idToken = idToken
+        }
 
         let now = Date()
         if let inter = accessTokenExpiration?.doubleValue {
@@ -329,9 +331,6 @@ public class TrustedPersistentOAuth2Session: OAuth2Session {
         }
         if let inter = refreshTokenExpiration?.doubleValue {
             self.refreshTokenExpirationDate = now.addingTimeInterval(inter) as Date
-        }
-        if let idToken = idToken {
-            self.idToken = idToken
         }
     }
 

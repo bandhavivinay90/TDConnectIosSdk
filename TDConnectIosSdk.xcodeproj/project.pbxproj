@@ -36,13 +36,14 @@
 		48DE90A619CDEAEE007F9B21 /* KeycloakOAuth2Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DE90A519CDEAEE007F9B21 /* KeycloakOAuth2Module.swift */; };
 		48F79D9D1ABC191E00D8B712 /* OAuth2WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F79D9C1ABC191E00D8B712 /* OAuth2WebViewController.swift */; };
 		5C542B581CABD3C400039789 /* IdTokenValidatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C542B571CABD3C400039789 /* IdTokenValidatorTest.swift */; };
+		5C8F38A2205A72260008756F /* JsonResponseSerializerWithDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F38A1205A72260008756F /* JsonResponseSerializerWithDate.swift */; };
 		5CF359B21CAA8C800064C43D /* IdTokenValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF359B01CAA8C800064C43D /* IdTokenValidator.swift */; };
 		5CF359B31CAA8C800064C43D /* TelenorConnectOAuth2Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF359B11CAA8C800064C43D /* TelenorConnectOAuth2Module.swift */; };
 		6F1432B81A168594003BEE5B /* TDConnectIosSdk.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 4833046219AF1635002F8DA9 /* TDConnectIosSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		84D373F11FD38C060072C433 /* ForcedHEManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D373F01FD38C060072C433 /* ForcedHEManagerTest.swift */; };
-		C1374896202212EC00D268E5 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = C1374895202212EC00D268E5 /* Cartfile */; };
-		C1374899202216CC00D268E5 /* AeroGearHttp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1374897202216CB00D268E5 /* AeroGearHttp.framework */; };
-		C137489A202216CC00D268E5 /* JWT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1374898202216CB00D268E5 /* JWT.framework */; };
+		C1A024082062AF9700148050 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = C1A024072062AF9700148050 /* Cartfile */; };
+		C1A0240B2062AFB000148050 /* AeroGearHttp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A024092062AFB000148050 /* AeroGearHttp.framework */; };
+		C1A0240C2062AFB000148050 /* JWT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A0240A2062AFB000148050 /* JWT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,12 +104,13 @@
 		48DE90A519CDEAEE007F9B21 /* KeycloakOAuth2Module.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeycloakOAuth2Module.swift; sourceTree = "<group>"; };
 		48F79D9C1ABC191E00D8B712 /* OAuth2WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth2WebViewController.swift; sourceTree = "<group>"; };
 		5C542B571CABD3C400039789 /* IdTokenValidatorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdTokenValidatorTest.swift; sourceTree = "<group>"; };
+		5C8F38A1205A72260008756F /* JsonResponseSerializerWithDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonResponseSerializerWithDate.swift; sourceTree = "<group>"; };
 		5CF359B01CAA8C800064C43D /* IdTokenValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdTokenValidator.swift; sourceTree = "<group>"; };
 		5CF359B11CAA8C800064C43D /* TelenorConnectOAuth2Module.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelenorConnectOAuth2Module.swift; sourceTree = "<group>"; };
 		84D373F01FD38C060072C433 /* ForcedHEManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForcedHEManagerTest.swift; sourceTree = "<group>"; };
-		C1374895202212EC00D268E5 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
-		C1374897202216CB00D268E5 /* AeroGearHttp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AeroGearHttp.framework; path = Carthage/Build/iOS/AeroGearHttp.framework; sourceTree = "<group>"; };
-		C1374898202216CB00D268E5 /* JWT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JWT.framework; path = Carthage/Build/iOS/JWT.framework; sourceTree = "<group>"; };
+		C1A024072062AF9700148050 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		C1A024092062AFB000148050 /* AeroGearHttp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AeroGearHttp.framework; path = Carthage/Build/iOS/AeroGearHttp.framework; sourceTree = "<group>"; };
+		C1A0240A2062AFB000148050 /* JWT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JWT.framework; path = Carthage/Build/iOS/JWT.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,9 +118,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1A0240B2062AFB000148050 /* AeroGearHttp.framework in Frameworks */,
+				C1A0240C2062AFB000148050 /* JWT.framework in Frameworks */,
 				01B3956F1F28B9C900AF514E /* libz.tbd in Frameworks */,
-				C1374899202216CC00D268E5 /* AeroGearHttp.framework in Frameworks */,
-				C137489A202216CC00D268E5 /* JWT.framework in Frameworks */,
 				01B3956D1F28B98400AF514E /* libcurl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,11 +138,12 @@
 		4833045819AF1635002F8DA9 = {
 			isa = PBXGroup;
 			children = (
-				C1374895202212EC00D268E5 /* Cartfile */,
+				C1A024072062AF9700148050 /* Cartfile */,
 				4833046419AF1635002F8DA9 /* TDConnectIosSdk */,
 				4833046E19AF1635002F8DA9 /* TDConnectIosSdkTests */,
 				4833046319AF1635002F8DA9 /* Products */,
 				6DA531836D4D42D3E1904E78 /* Frameworks */,
+				EED74AC197AB4B3F9FDB84AC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,6 +169,7 @@
 				48CD52D619B0C1CB008D0694 /* OAuth2Module.swift */,
 				485D73801A35BCBC0007D9EC /* OpenIDClaim.swift */,
 				5CF359B01CAA8C800064C43D /* IdTokenValidator.swift */,
+				5C8F38A1205A72260008756F /* JsonResponseSerializerWithDate.swift */,
 				5CF359B11CAA8C800064C43D /* TelenorConnectOAuth2Module.swift */,
 				48CD52DC19B0C22A008D0694 /* OAuth2Session.swift */,
 				4872F71519EFE7D100F3FDE8 /* DateUtils.swift */,
@@ -226,12 +230,19 @@
 		6DA531836D4D42D3E1904E78 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C1374897202216CB00D268E5 /* AeroGearHttp.framework */,
-				C1374898202216CB00D268E5 /* JWT.framework */,
+				C1A024092062AFB000148050 /* AeroGearHttp.framework */,
+				C1A0240A2062AFB000148050 /* JWT.framework */,
 				01B3956E1F28B9C900AF514E /* libz.tbd */,
 				01B3956C1F28B98400AF514E /* libcurl.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EED74AC197AB4B3F9FDB84AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,10 +282,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4833047819AF1635002F8DA9 /* Build configuration list for PBXNativeTarget "TDConnectIosSdkTests" */;
 			buildPhases = (
+				8DE73537CF286921AD828D34 /* [CP] Check Pods Manifest.lock */,
 				4833046919AF1635002F8DA9 /* Sources */,
 				4833046A19AF1635002F8DA9 /* Frameworks */,
 				4833046B19AF1635002F8DA9 /* Resources */,
 				6F1432B31A16857C003BEE5B /* Copy Frameworks */,
+				EC59B054FB4610D6F88D66D5 /* [CP] Embed Pods Frameworks */,
+				A2F54846B2BF1243A9D437A1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -330,7 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1374896202212EC00D268E5 /* Cartfile in Resources */,
+				C1A024082062AF9700148050 /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +357,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8DE73537CF286921AD828D34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TDConnectIosSdkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2F54846B2BF1243A9D437A1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDConnectIosSdkTests/Pods-TDConnectIosSdkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC59B054FB4610D6F88D66D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TDConnectIosSdkTests/Pods-TDConnectIosSdkTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework",
+				"${BUILT_PRODUCTS_DIR}/AeroGearHttp/AeroGearHttp.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONWebToken/JWT.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OHHTTPStubs.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AeroGearHttp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JWT.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDConnectIosSdkTests/Pods-TDConnectIosSdkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4833045D19AF1635002F8DA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -353,6 +425,7 @@
 				01BD2C581F28A2370051E77C /* ForcedHEURLProtocol.swift in Sources */,
 				485D73811A35BCBC0007D9EC /* OpenIDClaim.swift in Sources */,
 				48DE90A619CDEAEE007F9B21 /* KeycloakOAuth2Module.swift in Sources */,
+				5C8F38A2205A72260008756F /* JsonResponseSerializerWithDate.swift in Sources */,
 				01BD2C591F28A2370051E77C /* OperatorInfo.swift in Sources */,
 				5CF359B31CAA8C800064C43D /* TelenorConnectOAuth2Module.swift in Sources */,
 				48CD52DD19B0C22A008D0694 /* OAuth2Session.swift in Sources */,
@@ -403,7 +476,6 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_CODE_COVERAGE = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
@@ -460,7 +532,6 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_CODE_COVERAGE = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
@@ -507,7 +578,6 @@
 		4833047619AF1635002F8DA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_CODE_COVERAGE = NO;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
@@ -538,7 +608,6 @@
 		4833047719AF1635002F8DA9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_CODE_COVERAGE = NO;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
