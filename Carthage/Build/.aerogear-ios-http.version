@@ -1,0 +1,9 @@
+{
+  "commitish" : "2.0.0",
+  "iOS" : [
+    {
+      "name" : "AeroGearHttp",
+      "hash" : "35a147dcdcd16bb131c85e98dd352ff995250130183a3c4775ec722da08474ed"
+    }
+  ]
+}

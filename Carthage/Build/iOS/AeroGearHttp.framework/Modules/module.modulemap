@@ -1,0 +1,11 @@
+framework module AeroGearHttp {
+  umbrella header "AeroGearHttp.h"
+
+  export *
+  module * { export * }
+}
+
+module AeroGearHttp.Swift {
+    header "AeroGearHttp-Swift.h"
+    requires objc
+}
