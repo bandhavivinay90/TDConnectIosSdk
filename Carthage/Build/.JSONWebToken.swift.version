@@ -1,9 +1,0 @@
-{
-  "commitish" : "2.2.0",
-  "iOS" : [
-    {
-      "name" : "JWT",
-      "hash" : "a3c6a92dc12baa74ee5d2ff9332d69829d7c43d37ddc9a1f8387776028ef61bb"
-    }
-  ]
-}
