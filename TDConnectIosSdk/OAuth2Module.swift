@@ -440,7 +440,7 @@ open class OAuth2Module: NSObject, AuthzModule, SFSafariViewControllerDelegate {
         }
 
         paramDict["deviceName"] = UIDevice.current.name
-        paramDict["deviceModel"] = UIDevice.current.model
+        paramDict["deviceModel"] = UIDevice.current.modelName
         paramDict["osName"] = UIDevice.current.systemName
         paramDict["osVersion"] = UIDevice.current.systemVersion
 
