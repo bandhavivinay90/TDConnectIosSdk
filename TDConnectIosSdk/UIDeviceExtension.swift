@@ -5,8 +5,8 @@
 //  Created by Atanas Bakalov on 06/04/2018.
 //
 
-import Foundation
 import UIKit
+import Foundation
 
 public extension UIDevice {
 

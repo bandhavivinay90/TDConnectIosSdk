@@ -42,9 +42,10 @@
 		5CF359B31CAA8C800064C43D /* TelenorConnectOAuth2Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF359B11CAA8C800064C43D /* TelenorConnectOAuth2Module.swift */; };
 		6F1432B81A168594003BEE5B /* TDConnectIosSdk.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 4833046219AF1635002F8DA9 /* TDConnectIosSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		84D373F11FD38C060072C433 /* ForcedHEManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D373F01FD38C060072C433 /* ForcedHEManagerTest.swift */; };
-		C17DF181207BA19200D94069 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = C17DF180207BA19200D94069 /* Cartfile */; };
-		C17DF183207BA26A00D94069 /* AeroGearHttp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17DF182207BA26A00D94069 /* AeroGearHttp.framework */; };
-		C17DF185207BA27500D94069 /* JWT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17DF184207BA27500D94069 /* JWT.framework */; };
+		9F74D7BCCF0D94A87CEEB1FE /* Pods_TDConnectIosSdkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A11A0B9B0A172620872B76 /* Pods_TDConnectIosSdkTests.framework */; };
+		C1EE2CDC207F48F7000A3CF1 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = C1EE2CDB207F48F7000A3CF1 /* Cartfile */; };
+		C1EE2CDE207F499D000A3CF1 /* AeroGearHttp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1EE2CDD207F499D000A3CF1 /* AeroGearHttp.framework */; };
+		C1EE2CE0207F49A8000A3CF1 /* JWT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1EE2CDF207F49A8000A3CF1 /* JWT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		01BD2C521F28A2370051E77C /* ForcedHEManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForcedHEManager.m; sourceTree = "<group>"; };
 		01BD2C531F28A2370051E77C /* ForcedHEURLProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForcedHEURLProtocol.swift; sourceTree = "<group>"; };
 		01BD2C541F28A2370051E77C /* OperatorInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorInfo.swift; sourceTree = "<group>"; };
+		29A11A0B9B0A172620872B76 /* Pods_TDConnectIosSdkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDConnectIosSdkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4814EF4919C1C0FA008BAC4D /* TrustedPersistantOAuth2Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrustedPersistantOAuth2Session.swift; sourceTree = "<group>"; };
 		4814EF4A19C1C0FA008BAC4D /* UntrustedMemoryOAuth2Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UntrustedMemoryOAuth2Session.swift; sourceTree = "<group>"; };
 		4814EF4D19C1C10C008BAC4D /* FacebookOAuth2Module.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookOAuth2Module.swift; sourceTree = "<group>"; };
@@ -110,9 +112,11 @@
 		5CF359B01CAA8C800064C43D /* IdTokenValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdTokenValidator.swift; sourceTree = "<group>"; };
 		5CF359B11CAA8C800064C43D /* TelenorConnectOAuth2Module.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelenorConnectOAuth2Module.swift; sourceTree = "<group>"; };
 		84D373F01FD38C060072C433 /* ForcedHEManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForcedHEManagerTest.swift; sourceTree = "<group>"; };
-		C17DF180207BA19200D94069 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
-		C17DF182207BA26A00D94069 /* AeroGearHttp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AeroGearHttp.framework; path = Carthage/Build/iOS/AeroGearHttp.framework; sourceTree = "<group>"; };
-		C17DF184207BA27500D94069 /* JWT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JWT.framework; path = Carthage/Build/iOS/JWT.framework; sourceTree = "<group>"; };
+		9ADB5FF0CB048392A40B2D60 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE960CF64C41D83A722A3E4A /* Pods_TDConnectIosSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDConnectIosSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1EE2CDB207F48F7000A3CF1 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		C1EE2CDD207F499D000A3CF1 /* AeroGearHttp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AeroGearHttp.framework; path = Carthage/Build/iOS/AeroGearHttp.framework; sourceTree = "<group>"; };
+		C1EE2CDF207F49A8000A3CF1 /* JWT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JWT.framework; path = Carthage/Build/iOS/JWT.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +124,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C17DF185207BA27500D94069 /* JWT.framework in Frameworks */,
-				C17DF183207BA26A00D94069 /* AeroGearHttp.framework in Frameworks */,
+				C1EE2CE0207F49A8000A3CF1 /* JWT.framework in Frameworks */,
+				C1EE2CDE207F499D000A3CF1 /* AeroGearHttp.framework in Frameworks */,
 				01B3956F1F28B9C900AF514E /* libz.tbd in Frameworks */,
 				01B3956D1F28B98400AF514E /* libcurl.a in Frameworks */,
 			);
@@ -131,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F74D7BCCF0D94A87CEEB1FE /* Pods_TDConnectIosSdkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,12 +145,11 @@
 		4833045819AF1635002F8DA9 = {
 			isa = PBXGroup;
 			children = (
-				C17DF180207BA19200D94069 /* Cartfile */,
+				C1EE2CDB207F48F7000A3CF1 /* Cartfile */,
 				4833046419AF1635002F8DA9 /* TDConnectIosSdk */,
 				4833046E19AF1635002F8DA9 /* TDConnectIosSdkTests */,
 				4833046319AF1635002F8DA9 /* Products */,
 				6DA531836D4D42D3E1904E78 /* Frameworks */,
-				EED74AC197AB4B3F9FDB84AC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -233,19 +237,15 @@
 		6DA531836D4D42D3E1904E78 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C17DF184207BA27500D94069 /* JWT.framework */,
-				C17DF182207BA26A00D94069 /* AeroGearHttp.framework */,
+				C1EE2CDF207F49A8000A3CF1 /* JWT.framework */,
+				C1EE2CDD207F499D000A3CF1 /* AeroGearHttp.framework */,
 				01B3956E1F28B9C900AF514E /* libz.tbd */,
 				01B3956C1F28B98400AF514E /* libcurl.a */,
+				9ADB5FF0CB048392A40B2D60 /* Pods.framework */,
+				BE960CF64C41D83A722A3E4A /* Pods_TDConnectIosSdk.framework */,
+				29A11A0B9B0A172620872B76 /* Pods_TDConnectIosSdkTests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EED74AC197AB4B3F9FDB84AC /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,7 +347,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C17DF181207BA19200D94069 /* Cartfile in Resources */,
+				C1EE2CDC207F48F7000A3CF1 /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
