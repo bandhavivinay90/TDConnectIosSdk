@@ -42,10 +42,8 @@
 		5CF359B31CAA8C800064C43D /* TelenorConnectOAuth2Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF359B11CAA8C800064C43D /* TelenorConnectOAuth2Module.swift */; };
 		6F1432B81A168594003BEE5B /* TDConnectIosSdk.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 4833046219AF1635002F8DA9 /* TDConnectIosSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		84D373F11FD38C060072C433 /* ForcedHEManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D373F01FD38C060072C433 /* ForcedHEManagerTest.swift */; };
-		9F74D7BCCF0D94A87CEEB1FE /* Pods_TDConnectIosSdkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A11A0B9B0A172620872B76 /* Pods_TDConnectIosSdkTests.framework */; };
-		C1EE2CDC207F48F7000A3CF1 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = C1EE2CDB207F48F7000A3CF1 /* Cartfile */; };
-		C1EE2CDE207F499D000A3CF1 /* AeroGearHttp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1EE2CDD207F499D000A3CF1 /* AeroGearHttp.framework */; };
-		C1EE2CE0207F49A8000A3CF1 /* JWT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1EE2CDF207F49A8000A3CF1 /* JWT.framework */; };
+		C1B993A720AC557D00FB385C /* AeroGearHttp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B993A620AC557D00FB385C /* AeroGearHttp.framework */; };
+		C1B993A920AC558800FB385C /* JWT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B993A820AC558800FB385C /* JWT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,7 +78,6 @@
 		01BD2C521F28A2370051E77C /* ForcedHEManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForcedHEManager.m; sourceTree = "<group>"; };
 		01BD2C531F28A2370051E77C /* ForcedHEURLProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForcedHEURLProtocol.swift; sourceTree = "<group>"; };
 		01BD2C541F28A2370051E77C /* OperatorInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorInfo.swift; sourceTree = "<group>"; };
-		29A11A0B9B0A172620872B76 /* Pods_TDConnectIosSdkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDConnectIosSdkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4814EF4919C1C0FA008BAC4D /* TrustedPersistantOAuth2Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrustedPersistantOAuth2Session.swift; sourceTree = "<group>"; };
 		4814EF4A19C1C0FA008BAC4D /* UntrustedMemoryOAuth2Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UntrustedMemoryOAuth2Session.swift; sourceTree = "<group>"; };
 		4814EF4D19C1C10C008BAC4D /* FacebookOAuth2Module.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookOAuth2Module.swift; sourceTree = "<group>"; };
@@ -112,11 +109,8 @@
 		5CF359B01CAA8C800064C43D /* IdTokenValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdTokenValidator.swift; sourceTree = "<group>"; };
 		5CF359B11CAA8C800064C43D /* TelenorConnectOAuth2Module.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelenorConnectOAuth2Module.swift; sourceTree = "<group>"; };
 		84D373F01FD38C060072C433 /* ForcedHEManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForcedHEManagerTest.swift; sourceTree = "<group>"; };
-		9ADB5FF0CB048392A40B2D60 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE960CF64C41D83A722A3E4A /* Pods_TDConnectIosSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDConnectIosSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1EE2CDB207F48F7000A3CF1 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
-		C1EE2CDD207F499D000A3CF1 /* AeroGearHttp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AeroGearHttp.framework; path = Carthage/Build/iOS/AeroGearHttp.framework; sourceTree = "<group>"; };
-		C1EE2CDF207F49A8000A3CF1 /* JWT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JWT.framework; path = Carthage/Build/iOS/JWT.framework; sourceTree = "<group>"; };
+		C1B993A620AC557D00FB385C /* AeroGearHttp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AeroGearHttp.framework; path = Carthage/Build/iOS/AeroGearHttp.framework; sourceTree = "<group>"; };
+		C1B993A820AC558800FB385C /* JWT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JWT.framework; path = Carthage/Build/iOS/JWT.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,8 +118,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1EE2CE0207F49A8000A3CF1 /* JWT.framework in Frameworks */,
-				C1EE2CDE207F499D000A3CF1 /* AeroGearHttp.framework in Frameworks */,
+				C1B993A920AC558800FB385C /* JWT.framework in Frameworks */,
+				C1B993A720AC557D00FB385C /* AeroGearHttp.framework in Frameworks */,
 				01B3956F1F28B9C900AF514E /* libz.tbd in Frameworks */,
 				01B3956D1F28B98400AF514E /* libcurl.a in Frameworks */,
 			);
@@ -135,7 +129,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F74D7BCCF0D94A87CEEB1FE /* Pods_TDConnectIosSdkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,7 +138,6 @@
 		4833045819AF1635002F8DA9 = {
 			isa = PBXGroup;
 			children = (
-				C1EE2CDB207F48F7000A3CF1 /* Cartfile */,
 				4833046419AF1635002F8DA9 /* TDConnectIosSdk */,
 				4833046E19AF1635002F8DA9 /* TDConnectIosSdkTests */,
 				4833046319AF1635002F8DA9 /* Products */,
@@ -237,13 +229,10 @@
 		6DA531836D4D42D3E1904E78 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C1EE2CDF207F49A8000A3CF1 /* JWT.framework */,
-				C1EE2CDD207F499D000A3CF1 /* AeroGearHttp.framework */,
+				C1B993A820AC558800FB385C /* JWT.framework */,
+				C1B993A620AC557D00FB385C /* AeroGearHttp.framework */,
 				01B3956E1F28B9C900AF514E /* libz.tbd */,
 				01B3956C1F28B98400AF514E /* libcurl.a */,
-				9ADB5FF0CB048392A40B2D60 /* Pods.framework */,
-				BE960CF64C41D83A722A3E4A /* Pods_TDConnectIosSdk.framework */,
-				29A11A0B9B0A172620872B76 /* Pods_TDConnectIosSdkTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -285,13 +274,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4833047819AF1635002F8DA9 /* Build configuration list for PBXNativeTarget "TDConnectIosSdkTests" */;
 			buildPhases = (
-				8DE73537CF286921AD828D34 /* [CP] Check Pods Manifest.lock */,
 				4833046919AF1635002F8DA9 /* Sources */,
 				4833046A19AF1635002F8DA9 /* Frameworks */,
 				4833046B19AF1635002F8DA9 /* Resources */,
 				6F1432B31A16857C003BEE5B /* Copy Frameworks */,
-				EC59B054FB4610D6F88D66D5 /* [CP] Embed Pods Frameworks */,
-				A2F54846B2BF1243A9D437A1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -347,7 +333,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1EE2CDC207F48F7000A3CF1 /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,64 +344,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		8DE73537CF286921AD828D34 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TDConnectIosSdkTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A2F54846B2BF1243A9D437A1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDConnectIosSdkTests/Pods-TDConnectIosSdkTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EC59B054FB4610D6F88D66D5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TDConnectIosSdkTests/Pods-TDConnectIosSdkTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework",
-				"${BUILT_PRODUCTS_DIR}/AeroGearHttp/AeroGearHttp.framework",
-				"${BUILT_PRODUCTS_DIR}/JSONWebToken/JWT.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OHHTTPStubs.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AeroGearHttp.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JWT.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDConnectIosSdkTests/Pods-TDConnectIosSdkTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4833045D19AF1635002F8DA9 /* Sources */ = {
