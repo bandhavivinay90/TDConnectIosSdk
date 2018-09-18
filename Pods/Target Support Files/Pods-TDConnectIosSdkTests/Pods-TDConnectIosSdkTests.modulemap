@@ -1,0 +1,6 @@
+framework module Pods_TDConnectIosSdkTests {
+  umbrella header "Pods-TDConnectIosSdkTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
