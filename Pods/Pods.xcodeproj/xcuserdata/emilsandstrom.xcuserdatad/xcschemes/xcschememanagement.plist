@@ -7,11 +7,6 @@
 		<key>AeroGearHttp.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
-		</dict>
-		<key>JSONWebToken 2.xcscheme</key>
-		<dict>
-			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>JSONWebToken.xcscheme</key>
