@@ -19,7 +19,7 @@ import Foundation
 import UIKit
 import AeroGearHttp
 import JWT
-//import AuthenticationServices
+import AuthenticationServices
 import SafariServices
 import WebKit
 
@@ -241,15 +241,9 @@ open class OAuth2Module: NSObject, AuthzModule, SFSafariViewControllerDelegate {
         // register with the notification system in order to be notified when the 'authorization' process completes in the
         // external browser, and the oauth code is available so that we can then proceed to request the 'access_token'
         // from the server.
-//        applicationLaunchNotificationObserver = NotificationCenter.default.addObserver(forName: NSNotification.Name(rawValue: AGAppLaunchedWithURLNotification), object: nil, queue: nil, using: { (notification: Notification!) -> Void in
-//            let info = notification.userInfo!
-//            let url: URL? = info[UIApplication.LaunchOptionsKey.url] as? URL
-//            self.handleCallback(url, error: nil, state: state, completionHandler: completionHandler)
-//        })
-
         applicationLaunchNotificationObserver = NotificationCenter.default.addObserver(forName: NSNotification.Name(rawValue: AGAppLaunchedWithURLNotification), object: nil, queue: nil, using: { (notification: Notification!) -> Void in
             let info = notification.userInfo!
-            let url: URL? = info[UIApplicationLaunchOptionsKey.url] as? URL
+            let url: URL? = info[UIApplication.LaunchOptionsKey.url] as? URL
             self.handleCallback(url, error: nil, state: state, completionHandler: completionHandler)
         })
 
@@ -358,14 +352,14 @@ open class OAuth2Module: NSObject, AuthzModule, SFSafariViewControllerDelegate {
             let webViewController = OAuth2WebViewController()
             webViewController.targetURL = url;
             UIApplication.shared.tdcTopViewController?.present(webViewController, animated: true, completion: nil)
-//        } else if browserType == .webAuthenticationSession {
-//            guard #available(iOS 12.0, *) else {
-//                fatalError("Inconstant iOS version between here and getBrowserTypeToUse()")
-//            }
-//            self.authenticationSession = ASWebAuthenticationSession(url: url, callbackURLScheme: nil, completionHandler: { (successUrl: URL?, error: Error?) in
-//                self.handleCallback(successUrl, error: error, state: state, completionHandler: completionHandler)
-//            })
-//            (self.authenticationSession as! ASWebAuthenticationSession).start()
+        } else if browserType == .webAuthenticationSession {
+            guard #available(iOS 12.0, *) else {
+                fatalError("Inconstant iOS version between here and getBrowserTypeToUse()")
+            }
+            self.authenticationSession = ASWebAuthenticationSession(url: url, callbackURLScheme: nil, completionHandler: { (successUrl: URL?, error: Error?) in
+                self.handleCallback(successUrl, error: error, state: state, completionHandler: completionHandler)
+            })
+            (self.authenticationSession as! ASWebAuthenticationSession).start()
         } else if browserType == .safariAuthenticationSession {
             guard #available(iOS 11.0, *) else {
                 fatalError("Inconstant iOS version between here and getBrowserTypeToUse()")
